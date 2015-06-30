@@ -19,6 +19,7 @@ api = xmlrpclib.ServerProxy('https://rpc.gandi.net/xmlrpc/', verbose=False)
 # Used to cache the zone_ids for future calls
 zone_ids = {}
 
+# FIXME will crash when current_zone_id == 'None'
 def get_zone_id(domain):
   """ Get the gandi.net ID for the current zone version"""
 
