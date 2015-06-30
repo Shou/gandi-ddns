@@ -8,8 +8,8 @@ import sys
 apikey = '<apikey>'
 # Domains, A-names to be updated
 # XXX THIS IS ONLY AN EXAMPLE, EDIT TO SUIT YOUR NEEDS
-domains = { '<domain1>': [ '@' ]
-          , '<domain2>': [ '<a_name2>' ]
+domains = { 'example.com': [ '@', 'www' ]
+          , 'restaurant.london': [ 'forum' ]
           }
 
 # TTL (seconds = 5 minutes to 30 days)
