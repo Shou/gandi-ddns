@@ -6,10 +6,12 @@ import sys
 
 # gandi.net API (Production) key
 apikey = '<apikey>'
-# Domains by name, then A records to be updated
+# Domains, A-names to be updated
+# XXX THIS IS ONLY AN EXAMPLE, EDIT TO SUIT YOUR NEEDS
 domains = { '<domain1>': [ '@' ]
           , '<domain2>': [ '<a_name2>' ]
           }
+
 # TTL (seconds = 5 minutes to 30 days)
 ttl = 900
 # Production API
