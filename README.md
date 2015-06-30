@@ -11,7 +11,7 @@ Usage
 -----
 You will need to make sure that your domain is registered on gandi.net, and that you are using the gandi.net DNS servers (if you are using the default gandi.net zone for other domains you have on gandi.net, you might want to create a dedicated zone for the domain you will be using).  You'll also need to register for the API to get a key.  
 
-Once you have the production key (not the test environment key) and your domain on gandi.net, *edit the 'apikey' and 'domains' variables in the script* appropriately.
+Once you have the production key (not the test environment key) and your domain on gandi.net, **edit the 'apikey' and 'domains' variables in the script** appropriately.
 
 Once you have done this you can then set up the script to run via crontab:
 
