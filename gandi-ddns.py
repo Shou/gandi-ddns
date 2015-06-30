@@ -5,9 +5,9 @@ import urllib2
 import sys
 
 # gandi.net API (Production) key
-apikey = '<apikey>'
+apikey = '<CHANGE ME>'
 # Domains, A-names to be updated
-# XXX THIS IS ONLY AN EXAMPLE, EDIT TO SUIT YOUR NEEDS
+# XXX THIS IS ONLY AN EXAMPLE, CHANGE TO SUIT YOUR DOMAINS AND A-NAMES
 domains = { 'example.com': [ '@', 'www' ]
           , 'restaurant.london': [ 'forum' ]
           }
